@@ -1,4 +1,4 @@
-name: Python package
+name: IPYNB_RENDERER
 
 on:
   push:
