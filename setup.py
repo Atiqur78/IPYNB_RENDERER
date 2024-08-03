@@ -24,19 +24,7 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires=[
-        "ipywidgets",
-        "notebook",
-        "ensure",
-        "py-youtube"
-    ],
-    extras_require={
-        "dev": [
-            "pytest",
-            "tox",
-            "black",
-            "flake8",
-            "mypy"
-        ]
-    },
+    install_requires=[],
+    extras_require={},
+    
 )
