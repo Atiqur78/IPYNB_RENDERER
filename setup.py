@@ -23,8 +23,6 @@ setup(
         "Bug Tracker": f"https://github.com/{GITHUB_USER_NAME}/{SRC_REPO}/issues"
     },
     package_dir={"": "src"},
-    packages=find_packages(where="src"),
-    install_requires=[],
-    extras_require={},
+    packages=find_packages(where="src")
     
 )
